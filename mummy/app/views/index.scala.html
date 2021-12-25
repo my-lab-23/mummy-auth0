@@ -1,0 +1,13 @@
+@import models.MyWeb.MyIndex
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/main.css")">
+</head>
+<body>
+    <p>@Html(MyIndex.read())</p>
+</body>
+</html>

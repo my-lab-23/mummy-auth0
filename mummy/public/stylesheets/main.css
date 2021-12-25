@@ -1,0 +1,46 @@
+body { background-color: lightblue; }
+
+/* */
+
+h1 { 
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; 
+  font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; 
+} 
+
+h3 { 
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; 
+  font-size: 50px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 60px; 
+} 
+
+input { 
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; 
+  font-size: 35px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 45px; 
+} 
+
+p { 
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; 
+  font-size: 35px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 45px; 
+} 
+
+blockquote { 
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; 
+  font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; 
+} 
+
+pre { 
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; 
+  font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; 
+}
+
+/* */
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

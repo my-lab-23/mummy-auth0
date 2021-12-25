@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MummyAndroidReader</string>
+
+    <string name="com_auth0_client_id">???</string>
+    <string name="com_auth0_domain">???.auth0.com</string>
+    <string name="com_auth0_scheme">demo</string>
+</resources>
